@@ -1,8 +1,8 @@
 import { FlatList } from "react-native";
-import chats from "../../../assets/data/chats.json";
-import ChatListItem from "../../components/ChatListItem";
+import chats from "../../assets/data/chats.json";
+import ChatListItem from "../components/ChatListItem";
 
-const ChatsScreen = () => {
+const ChatLog = () => {
   return (
     <FlatList
       data={chats}
@@ -11,4 +11,4 @@ const ChatsScreen = () => {
   );
 };
 
-export default ChatsScreen;
+export default ChatLog;
