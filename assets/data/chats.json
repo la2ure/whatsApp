@@ -4,7 +4,8 @@
     "user": {
       "id": "u2",
       "name": "Weina",
-      "image": "https://i.pinimg.com/originals/8f/54/a9/8f54a998f7f3afb6c91857261097a473.jpg"
+      "image": "https://i.pinimg.com/originals/8f/54/a9/8f54a998f7f3afb6c91857261097a473.jpg",
+      "status": "Hey there!"
     },
     "lastMessage": {
       "id": "m1",

@@ -17,19 +17,20 @@ const MainTabNavigator = () => {
       <Tab.Screen
         name="Chats"
         component={ChatLog}
-        options={{
+        options={({ navigation }) => ({
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="chatbubbles-outline" size={size} color={color} />
           ),
           headerRight: () => (
             <AntDesign
+              onPress={() => navigation.navigate("Contacts")}
               name="message1"
               size={24}
               color="royalblue"
               style={{ marginRight: 15 }}
             />
           ),
-        }}
+        })}
       />
       <Tab.Screen
         name="Status"
